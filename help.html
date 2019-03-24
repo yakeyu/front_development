@@ -29,22 +29,46 @@
   
   <!-- ヘルプページ -->
   <main>
+    <div class="help-title">
+      <h1>ヘルプ</h1>
+      <p>お困りごとですか？</p>
+    </div>
     <!-- トグルメニュー -->
-    <section class="trouble">
+    <div class="trouble">
+      <div class="toggle-menu">
+        <dt class="js-toggle">活用方法について</dt>
+        <dd>サンプル</dd>
+        <dd>サンプル</dd>
+      </div>
+      <div class="toggle-menu">
+        <dt class="js-toggle">視聴に関して</dt>
+        <dd>サンプル</dd>
+        <dd>サンプル</dd>
+      </div>
+      <div class="toggle-menu">
+        <dt class="js-toggle">アカウントに関して</dt>
+        <dd>サンプル</dd>
+        <dd>サンプル</dd>
+      </div>
+      <div class="toggle-menu">
+        <dt class="js-toggle">お支払いに関して</dt>
+        <dd>サンプル</dd>
+        <dd>サンプル</dd>
+      </div>
 
-    </section>
+    </div>
 
     <!-- お問い合わせフォーム -->
     <form class="contact">
       <!-- 名前入力欄 -->
       <div class="form">
         <label>お名前</label>
-        <input type="text" class="name">
+        <input type="text" class="name" required>
       </div>
       <!-- メールアドレス入力欄 -->
       <div class="form">
         <label>メールアドレス</label>
-        <input type="email" class="email">
+        <input type="email" class="email" required>
       </div>
       <!-- カテゴリープルダウン -->
       <div class="form">
@@ -59,7 +83,7 @@
       <!-- 内容入力欄 -->
       <div class="form">
         <label>質問内容</label>
-        <textarea name="" class="contents"></textarea>
+        <textarea name="" class="contents" required></textarea>
       </div>
       
       <div class="button">
