@@ -15,29 +15,57 @@
 <body>
   <header>
     <div class="header">
-      <h2>NexSeed</h2>
+      <h1>NexSeed</h1>
       <!-- ヘッダーメニュー -->
       <ul>
-
         <li><a href="index.html#top">ホーム</a></li>
         <li><a href="index.html#recommend">オススメ</a></li>
         <li><a href="index.html#new">新着</a></li>
         <li><a href="index.html#movie">映画</a></li>
         <li><a href="index.html#tv">TV</a></li>
-        
       </ul>
     </div>
   </header>
   
-  <!-- メインコンテンツ -->
-  <main class="contents">
-    <section class="">
+  <!-- ヘルプページ -->
+  <main>
+    <!-- トグルメニュー -->
+    <section class="trouble">
 
     </section>
 
-    <section class="">
-
-    </section>
+    <!-- お問い合わせフォーム -->
+    <form class="contact">
+      <!-- 名前入力欄 -->
+      <div class="form">
+        <label>お名前</label>
+        <input type="text" class="name">
+      </div>
+      <!-- メールアドレス入力欄 -->
+      <div class="form">
+        <label>メールアドレス</label>
+        <input type="email" class="email">
+      </div>
+      <!-- カテゴリープルダウン -->
+      <div class="form">
+        <label>カテゴリ</label>
+        <select name="" class="category">
+          <option value="">視聴に関して</option>
+          <option value="">アカウントに関して</option>
+          <option value="">お支払いに関して</option>
+          <option value="">その他</option>
+        </select>
+      </div>
+      <!-- 内容入力欄 -->
+      <div class="form">
+        <label>質問内容</label>
+        <textarea name="" class="contents"></textarea>
+      </div>
+      
+      <div class="button">
+        <button type="submit">送信</button>
+      </div>
+    </form>
   </main>
 
   <footer>

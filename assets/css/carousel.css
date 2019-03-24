@@ -13,8 +13,9 @@ a:hover {
 .videos {
   width: 100%;
 }
-.videos h2{
-  margin-left: 30px;
+.videos h1{
+  margin-left: 40px;
+  font-size: 20px;
 }
 .row {
   overflow: scroll;

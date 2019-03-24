@@ -7,8 +7,9 @@
   color: #fff;
 }
 
-.header h2{
+.header h1{
   margin: auto 30px;
+  font-size: 24px;
 }
 
 .header ul{
@@ -22,13 +23,6 @@
 
 .header li:last-child{
   margin-right: 0;
-}
-
-/*メインコンテンツ*/
-.contents{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 /*トップスライド画像セクション*/
@@ -47,7 +41,6 @@
 .videos{
   margin-top: 30px;
 }
-
 
 /*フッター*/
 .footer{
@@ -69,6 +62,65 @@
 .footer .right{
   margin: auto 30px;
 }
+
+/*ヘルプページ*/
+.contact{
+  margin: 50px auto;
+  width: 500px;
+}
+
+.form{
+  margin-bottom: 30px;
+}
+
+.form label{
+  display: inline-block;
+  text-align: left;
+  width: 140px;
+  font-size: 18px;
+}
+
+.form input,
+.form .category,
+.form textarea{
+  font-size: 18px;
+  width: 350px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+
+.form textarea{
+  vertical-align: top;
+  height: 300px;
+}
+
+.contact .button{
+  text-align: right;
+}
+
+button{
+  padding: 5px 30px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
