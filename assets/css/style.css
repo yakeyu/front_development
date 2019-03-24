@@ -37,16 +37,19 @@
   width: 100%;
 }
 
-.top-img{
-  padding: 50px 30px;
-}
-
 .top-img img{
   height: 500px;
   width: 100%;
   object-fit: cover;
 }
 
+/*動画一覧セクション*/
+.videos{
+  margin-top: 30px;
+}
+
+
+/*フッター*/
 .footer{
   display: flex;
   justify-content: space-between;
