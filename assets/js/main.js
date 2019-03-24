@@ -18,5 +18,13 @@ $(function(){
     $('body,html').animate({scrollTop:position}, speed, 'swing');
     return false;
   });
+
+  // トグルメニュー
+  $('.js-toggle').on('click',function(){
+    $(this).toggleClass('on');
+    $(this).siblings().slideToggle();
+  });
+
+
 });
 
