@@ -11,7 +11,7 @@ a:hover {
   color: #7f8c8d;
   text-decoration: underline;
 }
-.contain {
+.videos {
   width: 100%;
 }
 .row {
@@ -24,7 +24,7 @@ a:hover {
   transition: 450ms transform, 450ms -webkit-transform;
   font-size: 0;
   white-space: nowrap;
-  margin: 70.3125px 0;
+  margin: 20px 0 70.3125px 20px;
   padding-bottom: 10px;
 }
 .tile {
