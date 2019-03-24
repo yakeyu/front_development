@@ -1,0 +1,36 @@
+/*ヘッダーここから*/
+.header{
+  display: flex;
+  padding-top: 10px;
+}
+
+.header h2{
+  margin-left: 30px;
+}
+
+.header .menu{
+  display: flex;
+  align-items: center;
+}
+
+.header .menu li{
+  margin-left: 20px;
+}
+
+/*メインコンテンツ*/
+.contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
